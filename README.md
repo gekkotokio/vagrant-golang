@@ -1,5 +1,15 @@
 # vagrant-golang
 
+## Requirements
+
+### vagrant-vbguest
+
+vagrant-vbguest is need to run ansible.
+
+```shell
+$ vagrant plugin install vagrant-vbguest
+```
+
 ## FAQ
 <dl>
     <dt><b>If vagrant fails to create the host-only adapter.</b></dt>
